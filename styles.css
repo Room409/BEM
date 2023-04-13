@@ -8,27 +8,36 @@
   height: 50px;
   border-bottom: 1px solid black;
 }
-.header--nav {
+.header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
   width: 100%;
 }
-.header--logo {
+.header__logo {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.header--list {
+.header__list {
   display: flex;
 }
-.header--items {
+.header__items {
   margin-right: 20px;
   list-style: none;
 }
-.header--items a {
+.header__item {
   text-decoration: none;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+}
+.header__item--active {
+  color: red;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.header__item:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
